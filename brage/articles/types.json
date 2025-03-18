@@ -1,0 +1,12 @@
+{
+   "id": "number",
+   "user_id": "number",
+   "name": "string",
+   "title": "string",
+   "keywords": "string",
+   "description": "string",
+   "image": "string | null",
+   "is_publish": "boolean",
+   "created_at": "Date | null",
+   "updated_at": "Date | null"
+}

@@ -1,0 +1,11 @@
+{
+   "id": "number",
+   "name": "string | null",
+   "password": "string",
+   "email": "string | null",
+   "author": "string | null",
+   "external_id": "string | null",
+   "auth_provider": "string | null",
+   "membership_type": "string",
+   "api_key": "string | null"
+}

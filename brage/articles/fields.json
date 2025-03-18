@@ -1,0 +1,56 @@
+{
+  "getAll": {
+    "fields": [],
+    "endpoint": "all",
+    "message": "All articles from all users requested"
+  },
+  "getAllById": {
+    "fields": [
+      "user_id"
+    ],
+    "endpoint": "all/user",
+    "message": "All articles from user requested"
+  },
+  "getAllByName": {
+    "fields": [
+      "name"
+    ]
+  },
+  "getId": {
+    "fields": [
+      "user_id",
+      "name"
+    ]
+  },
+  "addNew": {
+    "fields": [
+      "user_id",
+      "name",
+      "title",
+      "image",
+      "keywords",
+      "description"
+    ]
+  },
+  "changeData": {
+    "fields": [
+      "name",
+      "title",
+      "image",
+      "keywords",
+      "description",
+      "id"
+    ]
+  },
+  "changePublishment": {
+    "fields": [
+      "is_publish",
+      "id"
+    ]
+  },
+  "remove": {
+    "fields": [
+      "id"
+    ]
+  }
+}

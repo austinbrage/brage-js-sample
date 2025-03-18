@@ -1,0 +1,94 @@
+{
+  "getId": {
+    "fields": [
+      "api_key"
+    ]
+  },
+  "getByEmail": {
+    "fields": [
+      "email"
+    ]
+  },
+  "getByExternalId": {
+    "fields": [
+      "auth_provider",
+      "external_id"
+    ]
+  },
+  "getAll": {
+    "fields": [
+      "id"
+    ]
+  },
+  "getMembership": {
+    "fields": [
+      "id"
+    ]
+  },
+  "getIdPassword": {
+    "fields": [
+      "name"
+    ]
+  },
+  "getName": {
+    "fields": [
+      "name"
+    ]
+  },
+  "getEmail": {
+    "fields": [
+      "email"
+    ]
+  },
+  "getAuthor": {
+    "fields": [
+      "author"
+    ]
+  },
+  "addNew": {
+    "fields": [
+      "name",
+      "password",
+      "email",
+      "author",
+      "auth_provider",
+      "external_id"
+    ]
+  },
+  "changeExternalId": {
+    "fields": [
+      "auth_provider",
+      "external_id",
+      "email"
+    ]
+  },
+  "changeName": {
+    "fields": [
+      "name",
+      "id"
+    ]
+  },
+  "changePassword": {
+    "fields": [
+      "password",
+      "id"
+    ]
+  },
+  "changeAuthor": {
+    "fields": [
+      "author",
+      "id"
+    ]
+  },
+  "changeEmail": {
+    "fields": [
+      "email",
+      "id"
+    ]
+  },
+  "remove": {
+    "fields": [
+      "id"
+    ]
+  }
+}
