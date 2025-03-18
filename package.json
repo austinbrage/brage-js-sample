@@ -12,7 +12,7 @@
     "dev": "concurrently \"npm run dev:node\" \"npm run dev:brage\"",
     "dev:node": "cross-env NODE_ENV=development nodemon server/index.js",
     "dev:brage": "cross-env NODE_ENV=development brage-js",
-    "lint": "eslint . --ext js --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
     "sqlcheck": "brage-js --check",
     "sqlcheck:info": "brage-js --check --showexpected",
     "dbcreate": "brage-js --dbcreate",
@@ -30,11 +30,11 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@eslint/js": "^9.1.1",
+    "@eslint/js": "^9.22.0",
     "concurrently": "^8.2.2",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
     "eslint-plugin-import": "^2.29.1",
-    "globals": "^15.0.0",
+    "globals": "^15.15.0",
     "nodemon": "^3.1.0"
   },
   "keywords": [],
