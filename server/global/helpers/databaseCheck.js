@@ -15,6 +15,10 @@ export const checkDatabaseConnection = async ({ pool, delay, devRetries, prodRet
             
             if(i < retries - 1) {
                 await new Promise(resolve => setTimeout(resolve, delay));
+                
+            } else if(ENVIRONMENT === 'production') {
+                console.warn('Exhausted all retry attempts. No exit triggered.');
+
             } else {
                 console.error('Exhausted all retry attempts. Exiting.');
                 process.exit(1);
