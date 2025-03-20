@@ -5,8 +5,7 @@
   "type": "module",
   "main": "./server/index.js",
   "scripts": {
-    "start": "pm2 start ecosystem.config.cjs",
-    "reload": "pm2 reload ecosystem.config.cjs",
+    "start": "cross-env NODE_ENV=production node server/index.js",
     "build": "cross-env NODE_ENV=production brage-js",
     "build:check": "npm run sqlcheck && npm run build",
     "dev": "concurrently \"npm run dev:node\" \"npm run dev:brage\"",
